@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:simple_e_commerce/pages/home_page.dart';
+import 'package:simple_e_commerce/pages/intro_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,9 +12,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: HomePage(),
         ),
       ),
     );
