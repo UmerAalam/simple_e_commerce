@@ -6,7 +6,10 @@ class ShopPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("Shop"),
+      child: Text(
+        "Shop",
+        style: TextStyle(color: Colors.black),
+      ),
     );
   }
 }
