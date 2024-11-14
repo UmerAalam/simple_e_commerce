@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:simple_e_commerce/pages/home_page.dart';
-import 'package:simple_e_commerce/pages/intro_page.dart';
 
 void main() {
   runApp(const MainApp());
