@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:simple_e_commerce/components/shoe_tile.dart';
 
 class ShopPage extends StatelessWidget {
   const ShopPage({super.key});
@@ -69,6 +70,14 @@ class ShopPage extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(
+            height: 50,
+          ),
+          // ListView(
+          //   children: [
+          //     ShoeTile(),
+          //   ],
+          // ),
         ],
       ),
     );
