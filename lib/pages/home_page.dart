@@ -7,7 +7,7 @@ import 'package:simple_e_commerce/pages/cart_page.dart';
 import 'package:simple_e_commerce/pages/shop_page.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -39,6 +39,7 @@ class _HomePageState extends State<HomePage> {
               onPressed: Scaffold.of(context).openDrawer,
               icon: Icon(
                 Icons.menu,
+                size: 30,
                 color: Colors.grey[900],
               )),
         ),
